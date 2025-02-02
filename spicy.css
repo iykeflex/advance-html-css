@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+
+#dot {
+	color: red;
+}
+
+.logo {
+	font-family: "Lobster", serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+hr {
+	margin-bottom: 40px;
+}
+
+
+.container > ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	 font-family: "Inter", serif;
+	 font-weight: 500px;
+	 font-size: 16px;
+	 line-height: 19.36px;
+	 letter-spacing: -2%;
+
+}
+
+.container > ul > li {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.container > .social-media {
+	display: flex;
+	justify-content: center;
+	width: 133.96px;
+	height: 22px;
+}
+
+
+.container > .social-media > svg {
+	margin-left: 15px;
+	margin-right: 15px;
+	
+} 
+
+.hero-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hero-section > .feature-recipes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+	height: 640px;
+	background-color: #FFFFFF;
+}
+
+.hero-section > .feature-recipes > .rect-1 {
+	width: 620px;
+	height: 640px;
+	background-color: #E7FAFE;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	padding: 20px;
+}
+
+.hot {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	width: 156px;
+	height: 45px;
+	background-color: white;
+	border-radius: 30px;
+	background: #FFFFFF;
+
+}
+
+.hero-section > .feature-recipes > .rect-1 > .hot > img {
+	width: 24px;
+	height: 24px;
+	margin-left: 15px;
+}
+
+.feature-recipes > .rect-1 > .hot > h5 {
+	font-family: "Inter", serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16.94px;
+	letter-spacing: -2%;
+	color: #000000;
+	margin-right: 15px;
+
+}
+
+.wings {
+	width: 520px;
+	height: 154px;
+}
+
+.feature-recipes > .rect-1 > .wings  > h1 {
+	font-family: "Inter", serif;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 77.45px;
+	letter-spacing: 0.06em;
+	color: #000000;
+}
+
+.feature-recipes > .rect-1 > .lorem {
+	width: 520px;
+	height: 56px;
+
+}
+
+.feature-recipes > .rect-1 > .time-chicken > .box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 139px;
+	height: 40px;
+	border-radius: 30px;
+	background: #0000000D;
+	margin-top: 30px;
+
+
+}
+
+.feature-recipes > .rect-1 > .time-chicken > .box > .time {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 107px;
+	height: 24px;
+}
+
+.feature-recipes > .rect-1 > .lorem > p {
+	font-family: "Inter", serif;
+	font-weight: 400;
+	font-size:16px ;
+	color: #000000;
+
+
+}
+
+.feature-recipes > .rect-1 > .time-chicken {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.feature-recipes > .rect-1 > .time-chicken > .vector {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 119px;
+	height: 40px;
+	border-radius: 30px;
+	background: #0000000D;
+	margin: 20px;
+	padding: 5px;
+
+
+}
+
+.feature-recipes > .rect-1 > .time-chicken >.smith {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+}
+
+.hero-section > .feature-recipes > .rect-2 {
+	background-image: url('./Home-page/image-40.jpeg');
+	background-size: cover;
+	background-position: center;
+	width: 660px;
+	height: 640px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding: 20px;
+}
+
+
+.rect {
+	width: 40px;
+	height: 600px;
+	background-color: #E7F9FD;
+	border-radius: 20px;
+}
+
+
